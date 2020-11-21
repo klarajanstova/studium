@@ -1,12 +1,4 @@
-// cviceni_02.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-// Tento zdrojovy kod jsem vyparcovala zcela samostate bez cizi pomoci
-// Neokopiroval jsem ani neopsal jsem cizi zdrojove kody
-// Nikdo me pri vypracovavani neradil
-// Pokud nektery radek porusuje toto pravidlo je oznacen komentarem
-// NENI MOJE TVORBA
-// Poruseni techto pravidel se povazuje za podvod, ktery lze potrestat VYLOUCENIM ZE STUDIA
-// Klara Janstova, 35925 
+
 
 #include <iostream>
 #include <stdio.h>
@@ -114,11 +106,3 @@ int main()
 
 
 
-////1.	Napište program malá násobilka z pøednášky pomocí for cyklu.
-////2.	Napište program, který pro daný mìsíc(staèí jen do záøí) v roce zadaný èíslem vypíše jeho název. 
-////3.	Napište program, který ze standardního vstupu ète tak dlouho text, dokud není zadáno písmeno X.
-//4.	Napište program, který vygeneruje všechny textové øetìzce délky X = 3 z písmen T G C A.
-//5.	Napište program, který pro dané èíslo urèí všechny jeho dìlitele.
-//6.	Napište program, který k zadanému datu narození a zadanému aktuálnímu datumu, urèi stáøí èlovìka ve dnech.Bez použití knihovny time.h.Funkènost programu lze zkontrolovat napøíklad zde.
-//7.	Program z(4) upravte pro obecné X.
-//8.	DOMÁCÍ ÚKOL È. 1 - Kalkulaèka: Napište program, který bude s uživatelem komunikovat pomocí pøíkazové øádky a bude poèítat + , -, *, / , sin, cos, tan, druhou odmocninu.Vždy se zadává pouze èíslo nebo operace, není tøeba parsovat výraz.Program bude pracovat jako obyèejná kalkulaèka : uživatel zadá jednociferné èíslo, pak zadá operaci.V pøípadì funkcí typu "sin" dostane výsledek, v pøípadì operátorù typu "+" zadá další jednociferné èíslo a poté získá výsledek.S výsledkem musí jít dále pracovat, tedy rovnou mùžeme zadat další operaci.Program se ukonèí zadáním operace "Q".
