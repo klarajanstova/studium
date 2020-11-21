@@ -1,12 +1,4 @@
-/*
-  Tento zdrojovy kod jsem vypracovala zcela samostatne bez cizi pomoci
- * Nekopirovala jsem ani neopsala jsem cizi zdrojove kody
- * Nikdo me pri vypracovani neradil
- * Pokud nektery radek porusuje toto pravidlo je oznacen
- * NENI MOJE TVORBA
- * Poruseni techto pravidel se povazuje za podvod, ktery lze potrestat VYLOUCENIM ZE STUDIA
- * Klara Janstova, 35925
- */
+
 
 
 
@@ -102,10 +94,3 @@ int main()
 
  
 
- /*8.	DOMÁCÍ ÚKOL È. 1 - Kalkulaèka: Napište program, který bude s uživatelem komunikovat pomocí pøíkazové øádky a bude poèítat
- +, -, *, /, sin, cos, tan, druhou odmocninu. Vždy se zadává pouze èíslo nebo operace, není tøeba parsovat výraz.
- Program bude pracovat jako obyèejná kalkulaèka: uživatel zadá jednociferné èíslo, pak zadá operaci.
- V pøípadì funkcí typu "sin" dostane výsledek, v pøípadì operátorù typu "+" zadá další jednociferné èíslo a poté získá výsledek.
- S výsledkem musí jít dále pracovat, tedy rovnou mùžeme zadat další operaci.
- Program se ukonèí zadáním operace "Q".
- */
