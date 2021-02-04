@@ -36,7 +36,7 @@ void assign(int** arr, int x, int y, int value) // funkce na alokaci matice o ve
 
 int main(int argc, char** argv[])
 {
-    char matice[100][100]; // alokace matice n * m zpùsob 2
+    char matice[100][100]; // alokace matice n * m zpÅ¯sob 2
     int a = 0, b = 0;
     int n, m;
     int l = 3, k = 3;
@@ -107,7 +107,7 @@ int main(int argc, char** argv[])
         FILE* p_soubor = fopen("matice.txt", "w");
         if (p_soubor == NULL)
         {
-            printf("Soubor se nepodaøilo otevøít pro zápis, zkontrolujte prosím oprávnìní.");
+            printf("Soubor se nepodaÅ™ilo otevÅ™Ã­t pro zÃ¡pis, zkontrolujte prosÃ­m oprÃ¡vnÄ›nÃ­.");
             return 1;
         }
 
@@ -118,7 +118,7 @@ int main(int argc, char** argv[])
 
         if (fclose(p_soubor) == EOF)
         {
-            printf("Soubor se nepodaøilo uzavøít.");
+            printf("Soubor se nepodaÅ™ilo uzavÅ™Ã­t.");
             return 1;
         }
 
@@ -130,7 +130,7 @@ int main(int argc, char** argv[])
         for (int r = 0; r < l; r++)
             arr[r] = (int*)malloc(k * sizeof(int));
 
-        //postupnì naplnujeme matici 3x3 a pouzivame k tomu pozice jednotlivych prvku, matice je cislovana "programatorsky", tedy od 0 
+        //postupnÄ› naplnujeme matici 3x3 a pouzivame k tomu pozice jednotlivych prvku, matice je cislovana "programatorsky", tedy od 0 
         assign(arr, 0, 0, 1);
         assign(arr, 0, 1, 2);
         assign(arr, 0, 2, 3);
@@ -183,7 +183,7 @@ int main(int argc, char** argv[])
         FILE* p_soubor = fopen("matice.txt", "w");
         if (p_soubor == NULL)
         {
-            printf("Soubor se nepodaøilo otevøít pro zápis, zkontrolujte prosím oprávnìní.");
+            printf("Soubor se nepodaÅ™ilo otevÅ™Ã­t pro zÃ¡pis, zkontrolujte prosÃ­m oprÃ¡vnÄ›nÃ­.");
             return 1;
         }
 
@@ -192,7 +192,7 @@ int main(int argc, char** argv[])
 
         if (fclose(p_soubor) == EOF)
         {
-            printf("Soubor se nepodaøilo uzavøít.");
+            printf("Soubor se nepodaÅ™ilo uzavÅ™Ã­t.");
             return 1;
         }
 
@@ -204,7 +204,7 @@ int main(int argc, char** argv[])
         for (int r = 0; r < l; r++)
             arr[r] = (int*)malloc(k * sizeof(int));
 
-        //postupnì naplnujeme matici 3x3 a pouzivame k tomu pozice jednotlivych prvku, matice je cislovana "programatorsky", tedy od 0 
+        //postupnÄ› naplnujeme matici 3x3 a pouzivame k tomu pozice jednotlivych prvku, matice je cislovana "programatorsky", tedy od 0 
         assign(arr, 0, 0, 1);
         assign(arr, 0, 1, 2);
         assign(arr, 0, 2, 3);
@@ -235,10 +235,10 @@ int main(int argc, char** argv[])
 }
 
 
-/*1.	Napište funkci, která alokuje prostor pro matici celých èísel n*m.
-2.	Napište funkce, které spoètou nejmenší spoleèný násobek (nsn) a nejvìtší spoleèný dìlitel (nsd) dvou èísel.
-3.	Napište funkci, která do každého prvku zadané matice uloží výsledek zadané funkci se dvìma parametry typu int vracející int. Parametry funkce jsou x a y a urèují pozice prvku v matici. Použijte pointry na funkce.
-4.	Napište program s parametry "{-nsn | -nsd } [-f output] n [m]", který spoète nsd nebo nsn pro všechny uspoøádané dvojice èísel [x,y] takových, že x je z 1..n a y je z 1..m. Pokud m není zadáno, bude mít stejnou hodnotu jako n.
-5.	Obsah matice bude vypsán na obrazovku
-6.	Obsah matice bude vypsán do souboru, pokud je soubor zadán pomocí -f. Viz pøednáška è. 7.
+/*1.	NapiÅ¡te funkci, kterÃ¡ alokuje prostor pro matici celÃ½ch ÄÃ­sel n*m.
+2.	NapiÅ¡te funkce, kterÃ© spoÄtou nejmenÅ¡Ã­ spoleÄnÃ½ nÃ¡sobek (nsn) a nejvÄ›tÅ¡Ã­ spoleÄnÃ½ dÄ›litel (nsd) dvou ÄÃ­sel.
+3.	NapiÅ¡te funkci, kterÃ¡ do kaÅ¾dÃ©ho prvku zadanÃ© matice uloÅ¾Ã­ vÃ½sledek zadanÃ© funkci se dvÄ›ma parametry typu int vracejÃ­cÃ­ int. Parametry funkce jsou x a y a urÄujÃ­ pozice prvku v matici. PouÅ¾ijte pointry na funkce.
+4.	NapiÅ¡te program s parametry "{-nsn | -nsd } [-f output] n [m]", kterÃ½ spoÄte nsd nebo nsn pro vÅ¡echny uspoÅ™Ã¡danÃ© dvojice ÄÃ­sel [x,y] takovÃ½ch, Å¾e x je z 1..n a y je z 1..m. Pokud m nenÃ­ zadÃ¡no, bude mÃ­t stejnou hodnotu jako n.
+5.	Obsah matice bude vypsÃ¡n na obrazovku
+6.	Obsah matice bude vypsÃ¡n do souboru, pokud je soubor zadÃ¡n pomocÃ­ -f. Viz pÅ™ednÃ¡Å¡ka Ä. 7.
 */
