@@ -1,10 +1,4 @@
-// Tento zdrojovy kod jsem vyparcovala zcela samostate bez cizi pomoci
-// Neokopiroval jsem ani neopsal jsem cizi zdrojove kody
-// Nikdo me pri vypracovavani neradil
-// Pokud nektery radek porusuje toto pravidlo je oznacen komentarem
-// NENI MOJE TVORBA
-// Poruseni techto pravidel se povazuje za podvod, ktery lze potrestat VYLOUCENIM ZE STUDIA
-// Klara Janstova, 35925 
+
 
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h> 
@@ -235,10 +229,3 @@ int main(int argc, char** argv[])
 }
 
 
-/*1.	Napište funkci, která alokuje prostor pro matici celých čísel n*m.
-2.	Napište funkce, které spočtou nejmenší společný násobek (nsn) a největší společný dělitel (nsd) dvou čísel.
-3.	Napište funkci, která do každého prvku zadané matice uloží výsledek zadané funkci se dvěma parametry typu int vracející int. Parametry funkce jsou x a y a určují pozice prvku v matici. Použijte pointry na funkce.
-4.	Napište program s parametry "{-nsn | -nsd } [-f output] n [m]", který spočte nsd nebo nsn pro všechny uspořádané dvojice čísel [x,y] takových, že x je z 1..n a y je z 1..m. Pokud m není zadáno, bude mít stejnou hodnotu jako n.
-5.	Obsah matice bude vypsán na obrazovku
-6.	Obsah matice bude vypsán do souboru, pokud je soubor zadán pomocí -f. Viz přednáška č. 7.
-*/
