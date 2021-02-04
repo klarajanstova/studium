@@ -75,7 +75,7 @@ int vypocet_stari()
     time_t ts;
     struct tm* ct;
 
-    //zde naËÌt·me od uûivatele jeho datum narozenÌ 
+    //zde naƒç√≠t√°me od u≈æivatele jeho datum narozen√≠ 
     printf("Zadej datum tveho narozeni, DEN: ");
     scanf("%d", &days);
 
@@ -88,7 +88,7 @@ int vypocet_stari()
 
    
 
-    //tato fuknce n·m zÌsk· aktu·lnÌ datum a Ëas 
+    //tato fuknce n√°m z√≠sk√° aktu√°ln√≠ datum a ƒças 
     ts = time(NULL);
     ct = localtime(&ts);
 
@@ -284,7 +284,7 @@ void soubor()
         fprintf(file, "\n%s\t%s\n", jmeno, prijmeni);
         if (fclose(file) == EOF)
         {
-            printf("Soubor se nepoda¯ilo uzav¯Ìt.");
+            printf("Soubor se nepoda≈ôilo uzav≈ô√≠t.");
             return 1;
         }
         //v  teto casti nactenou cast ulozime do souboru 
@@ -354,7 +354,7 @@ void insert() {
 
 void mazani() {
 
-    // podobnÏ jako u insertu i u mazani nejprve musime nacist vstupy od uzivatele 
+    // podobnƒõ jako u insertu i u mazani nejprve musime nacist vstupy od uzivatele 
 
     int array[100], position, c, n, value;
 
@@ -690,7 +690,7 @@ void disp_matrix(void);
 
         char done;
 
-        printf("Pr·ve sis zapnul/a piskorky, budes hrat proti chytremu PC.\n");
+        printf("Pr√°ve sis zapnul/a piskorky, budes hrat proti chytremu PC.\n");
 
 
         done = ' ';
